@@ -3,46 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lionel Messi-Inicio</title>
+    <title>Lionel Messi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="fondo-inicio">
-    <header class="navbar">
-        <div class="logo-menu">
-            <a href=""><img src="./assets/logo-messi-encabezado.png" class="logo-messi-menu" alt="imagen del logo de la marca de messi"></a>
+    <header>
+        <div class="content">
+            <div class="menu conteiner">
+                <a href=""><img src="./assets/logo-messi-encabezado.png" class="logo-messi-menu" alt="imagen del logo de la marca de messi"></a>
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="./assets/icono-menu.png" class="menu-icono" alt="">
+                </label>
+                <nav class="navBar">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="./pages/biografia.html">BIOGRAFÍA</a></li>
+                        <li><a href="./pages/carrera.html">CARRERA</a></li>
+                        <li><a href="./pages/seleccion.html">SELECCIÓN</a></li>
+                        <li><a href="./pages/galeria.html">GALERIA</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav>
-            <ul class="nav nav-underline">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">INICIO</a></li>
-                <li class="nav-item"><a class="nav-link" href="./pages/biografia.html">BIOGRAFÍA</a></li>
-                <li class="nav-item "><a class="nav-link" href="./pages/carrera.html">CARRERA</a></li>
-                <li class="nav-item "><a class="nav-link" href="./pages/seleccion.html">SELECCIÓN</a></li>
-                <li class="nav-item "><a class="nav-link" href="./pages/galeria.html">GALERIA</a></li>
-            </ul>
-        </nav>
-        
     </header>
     <main>
-        <section >
+        <section class="inicio">
             <h1 class="titulo-inicio">LIONEL MESSI</h1>
             <div class="cuadros-inicio">
-                <div><a href="./pages/biografia.html"><img src="./assets/curriculum.png" class="fotos-inicio" alt="imagen de un libro con una pluma haciendo referencia a la biografia"><h2 id="cuadros">BIOGRAFÍA</h2></a></div>
-                <div><a href="./pages/carrera.html"><img src="./assets/carrera-profesional.png" class="fotos-inicio" alt="imagen de un maletin haciendo referecia a la carrera carrera profesional"><h2 id="cuadros">CARRERA</h2></a></div>
-                <div><a href="./pages/seleccion.html"><img src="./assets/afa-logo.png" class="fotos-inicio" alt="imagen del logo de la AFA refiriendose a la selccion"><h2 id="cuadros">SELECCIÓN</h2></a></div>
-                <div><a href="./pages/galeria.html"><img src="./assets/galeria-de-fotos.png" class="fotos-inicio" alt="imagen que hace referencia a una galeria de fotos"><h2 id="cuadros">GALERÍA</h2></a></div>
+                <div><a href="./pages/biografia.html"><img src="./assets/curriculum.png" class="fotos-inicio" alt="imagen de un libro con una pluma haciendo referencia a la biografia">BIOGRAFÍA</a></div>
+                <div><a href="./pages/carrera.html"><img src="./assets/carrera-profesional.png" class="fotos-inicio" alt="imagen de un maletin haciendo referecia a la carrera carrera profesional">CARRERA</a></div>
+                <div><a href="./pages/seleccion.html"><img src="./assets/afa-logo.png" class="fotos-inicio" alt="imagen del logo de la AFA refiriendose a la selccion">SELECCIÓN</a></div>
+                <div><a href="./pages/galeria.html"><img src="./assets/galeria-de-fotos.png" class="fotos-inicio" alt="imagen que hace referencia a una galeria de fotos">GALERÍA</a></div>
             </div>
         </section>
     </main>
     <footer>
         <ul class="flex-logos">
             <h2>Pagina sin fines de lucro<br>Copyright Santiago Muñoz©</h2>
-            <li class="logo-1"><a href="https://messi.com/" target="_blank"><img src="./assets/logo-messi.png" class="logos-pie-de-pagina" alt="imagen del logo de messi"></a></li>
-            <li class="logo-2"><a href="https://www.adidas.com.ar/?cm_mmc=AdieSEM_Google-_-Trademark-Regions-General-B-Exact-_-General-Argentina-X-General-_-adidas+argentina-_--_-dv:eCom-_-cm_mmca1=AR-_-cm_mmc2=&-_-ds_kid=43700052081873334-_-&-_-ds_agid=58700005708147750&af_reengagement_window=30d&is_retargeting=true&pid=googleadwords_temp&c=Trademark-Regions-General-B-Exact&af_channel=Search&gad_source=1&gclid=CjwKCAiArfauBhApEiwAeoB7qNHatz27RNzKl8bTSA_zQNJzEiE50BZG0BBeowgFCQ7auvXnwvmD9xoCeSEQAvD_BwE&gclsrc=aw.ds" target="_blank"><img src="./assets/adidas.png" class="logos-pie-de-pagina" alt="imagen del logo de adidas"></a></li>
-            <li class="logo-3"><a href="https://www.lays.es/" target="_blank"><img src="./assets/lays_original.png" class="logos-pie-de-pagina" alt="imagen del logo de lays"></a></li>
-            <li class="logo-4"><a href="https://www.pepsi.com/" target="_blank"><img src="./assets/pepsi-logo.png" class="logos-pie-de-pagina" alt="imagen del logo de pepsi"></a></li>
-            <li class="logo-5"><a href="https://gatorade.lat/ar/" target="_blank"><img src="./assets/gatorade-logo.png" class="logos-pie-de-pagina" alt="imagen del logo de gatorade"></a></li>
+            <li class="logo-1"><a href="https://messi.com/" target="_blank"><img src="./assets/logo-messi.png" alt="imagen del logo de messi"></a></li>
+            <li class="logo-2"><a href="https://www.adidas.com.ar/?cm_mmc=AdieSEM_Google-_-Trademark-Regions-General-B-Exact-_-General-Argentina-X-General-_-adidas+argentina-_--_-dv:eCom-_-cm_mmca1=AR-_-cm_mmc2=&-_-ds_kid=43700052081873334-_-&-_-ds_agid=58700005708147750&af_reengagement_window=30d&is_retargeting=true&pid=googleadwords_temp&c=Trademark-Regions-General-B-Exact&af_channel=Search&gad_source=1&gclid=CjwKCAiArfauBhApEiwAeoB7qNHatz27RNzKl8bTSA_zQNJzEiE50BZG0BBeowgFCQ7auvXnwvmD9xoCeSEQAvD_BwE&gclsrc=aw.ds" target="_blank"><img src="./assets/adidas.png" alt="imagen del logo de adidas"></a></li>
+            <li class="logo-3"><a href="https://www.lays.es/" target="_blank"><img src="./assets/lays_original.png" alt="imagen del logo de lays"></a></li>
+            <li class="logo-4"><a href="https://www.pepsi.com/" target="_blank"><img src="./assets/pepsi-logo.png" alt="imagen del logo de pepsi"></a></li>
+            <li class="logo-5"><a href="https://gatorade.lat/ar/" target="_blank"><img src="./assets/gatorade-logo.png" alt="imagen del logo de gatorade"></a></li>
             <li class="logo-6"><a href="https://www.instagram.com/leomessi/" target="_blank"><img src="./assets/instagram.png" class="redes-sociales" alt="imagen del logo de instagram"></a></li>
             <li class="logo-7"><a href="https://www.facebook.com/leomessi/?locale=es_LA" target="_blank"><img src="./assets/facebook.png" class="redes-sociales" alt="imagen del logo de facebook"></a></li>
             <li class="logo-8"><a href="https://www.youtube.com/user/leomessi" target="_blank"><img src="./assets/youtube.png" class="redes-sociales" alt="imagen del logo de facebook"></a></li>

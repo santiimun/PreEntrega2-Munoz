@@ -1,0 +1,22 @@
+.biografia{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(2,1fr);
+    section{
+        div{
+            h1{
+                @include h1;
+                padding-right: 2.8125rem;
+            }
+            p{
+                @include p;
+                width: 80%;
+                height: 30.625rem;
+                text-indent: .9375rem;
+                text-align: center;
+                margin: 5rem;
+            }
+        }
+    }
+    @import "../components/carrousel-bio";
+}

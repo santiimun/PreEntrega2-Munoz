@@ -1,0 +1,54 @@
+footer{
+    background-color: #075581;
+    padding: .125rem;
+    width: 100%;
+    ul{
+        display: flex;
+        align-items: center;
+        h2{
+            font-family: "Questrial", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: .9375rem;
+            margin: 1.875rem;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        .logo-1{
+            list-style: none;
+            margin: 2.5rem;
+            img{
+                width: 12.5rem;
+                height: 9.375rem;
+                flex-wrap: wrap;
+            }
+        }
+        .logo-2{
+            @extend .logo-1;
+        }
+        .logo-3{
+            @extend .logo-1;
+        }
+        .logo-4{
+            @extend .logo-1;
+        }
+        .logo-5{
+            @extend .logo-1;
+        }
+        .logo-6{
+            @extend .logo-1;
+            margin: .625rem;
+            img{
+                width: 4.375rem;
+                height: 4.375rem;
+                flex-wrap: wrap
+            }
+        }
+        .logo-7{
+            @extend .logo-6;
+        }
+        .logo-8{
+            @extend .logo-6;
+        }
+    }
+}

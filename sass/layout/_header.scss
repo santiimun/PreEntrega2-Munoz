@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    background-color: #727f863d;
+    height: 10.625rem;
+    width: 100%;
+    div{
+        .menu{
+            position: absolute;
+            top: .625rem;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a .logo-messi-menu{
+                width: 9.375rem;
+                height: 6.25rem;
+                margin: 1.25rem;
+            }
+            #menu{
+                display: none;
+            }
+            label{
+                cursor: pointer;
+                display: none;
+                .menu-icono{
+                    width: 2.5rem;
+                    height: 1.875rem;
+                    margin: 1.25rem;
+                }
+            }
+            .navBar{
+                ul{
+                    li{
+                        position: relative;
+                        float: left;
+                        list-style: none;
+                        a{
+                            font-size: 1.25rem;
+                            padding: 1.25rem;
+                            color: #cfcfcf;
+                            text-decoration: none;
+                            display: block;
+                            font-weight: bold;
+                            &:hover{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

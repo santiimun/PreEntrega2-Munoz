@@ -1,0 +1,31 @@
+.seleccion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    section{
+        grid-column: 2/3;
+        grid-area: 1/2;
+        div{
+            h1{
+                @include h1;
+                text-align: center;
+                padding-right: 2.8125rem;
+                padding-top: 3.125rem;
+            }
+            p{
+                @include p;
+                text-align: center;
+                text-indent: .9375rem;
+                width: 50rem;
+                height: 28.75rem;
+                margin: 3.125rem;
+                align-items: center;
+                padding: 2.1875rem;
+            }
+        } 
+    }
+    div{
+        grid-column: 1/2;
+        @import "../components/carrousel-sel";
+    }
+    @import "../components/carrousel-sel";
+}

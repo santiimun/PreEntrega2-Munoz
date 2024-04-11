@@ -1,0 +1,44 @@
+main{
+    .inicio{
+        .titulo-inicio{
+            text-align: left;
+            margin: 3.125rem;
+            margin-left: 6.25rem;
+            margin-top: 5rem;
+            color: grey;
+            font-family: "Nanum Myeongjo", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 5.625rem;
+        }
+        .cuadros-inicio{
+            text-align: right;
+            color: aliceblue;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 6.25rem;
+            padding-bottom: 12.5rem;
+            div{
+                width: 16.25rem;
+                height: 200px;
+                background-color: #303030;
+                text-align: center;
+                margin: 2.5rem;
+                &:hover{
+                    background-color: #4b4949;
+                }
+                a{
+                    color: rgb(158, 157, 157);
+                    font-weight: bold;
+                    font-size: 1.75rem;
+                    text-decoration: none;
+                    .fotos-inicio{
+                        width: 12.5rem;
+                        height: 9.375rem;
+                    }
+                }
+            }
+        }
+    }
+}

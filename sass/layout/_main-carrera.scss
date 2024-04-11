@@ -1,0 +1,26 @@
+.carrera-datos{
+    h1{
+        @include h1;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+        }
+        div{
+            article{
+                display: flex;
+                justify-content: center;
+                div{
+                    @include datos;
+                    @include datos-p;
+                    img{
+                        width: 200px;
+                        height: 200px;
+                        margin: 40px;
+                    }
+                    &:hover{
+                        background-color: #545353;
+                    }
+                }
+            }
+        }
+    }
