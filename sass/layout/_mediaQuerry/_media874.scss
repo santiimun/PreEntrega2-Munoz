@@ -1,0 +1,30 @@
+@media (max-width: 874px){
+    .content{
+        min-height: 70px;
+        .menu{
+            top: 0px;
+            padding: 20px;
+            #menu:checked ~ .navBar{
+                display: initial;
+            }
+            label{
+                display: initial;
+            }
+            .navBar{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #272626;
+                margin-top: -10px;
+                display: none;
+                height: 380px;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
