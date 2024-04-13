@@ -1,0 +1,46 @@
+@media (max-width:1440px){
+    header{
+        height: 10.625rem;
+        div{
+            .menu{
+                a{
+                    .logo-messi-menu{
+                        width: 9.375rem;
+                        height: 6.25rem;
+                        margin: 1.25rem;
+                    }
+                }
+                .navBar{
+                    ul{
+                        li{
+                            a{
+                                font-size: 25px;
+                                padding: 1.25rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        ul{
+            .logo-1{
+                img{
+                    width: 6.25rem;
+                    height: 5.625rem;
+                    flex-wrap: wrap;
+                    margin: .5rem;
+                }
+            }
+            .logo-6{
+                img{
+                    width: 4.375rem;
+                    height: 4.375rem;
+                    margin: 2px;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}

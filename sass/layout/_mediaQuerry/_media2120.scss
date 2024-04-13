@@ -1,0 +1,39 @@
+@media(max-width:2120px){
+    main{
+        .inicio{
+            .titulo-inicio{
+                font-size: 7.5rem;
+            }
+            .cuadros-inicio{
+                div{
+                    width: 21.875rem;
+                    height: 15.625rem;
+                    a{
+                        .fotos-inicio{
+                            width: 12.5rem;
+                            height: 9.375rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        ul{
+            .logo-1{
+                img{
+                    width: 10.625rem;
+                    height: 7.5rem;
+                    margin: .3125rem;
+                }
+            }
+            .logo-6{
+                img{
+                    width: 5.625rem;
+                    height: 5.625rem;
+                    margin: .625rem;
+                }
+            }
+        }
+    }
+}

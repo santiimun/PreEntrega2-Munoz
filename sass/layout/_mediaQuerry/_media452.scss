@@ -1,0 +1,49 @@
+@media(max-width:452px){
+    footer{
+        ul{
+            h2{
+                font-size: 22px;
+            }
+            .logo-1{
+                img{
+                    width: 6.5625rem;
+                    height: 5.625rem;
+                }
+            }
+            .logo-2{
+                padding-left: .75rem;
+            }
+            .logo-3{
+                padding-right: .75rem;
+            }
+            .logo-4{
+                padding-left: .75rem;
+            }
+            .logo-5{
+                padding-right: .75rem;
+            }
+            .logo-6{
+                img{
+                width: 60px;
+                height: 60px;
+                }
+            }
+        }
+    }
+    main{
+        .inicio{
+            .cuadros-inicio{
+                div{
+                    height: 180px;
+                    a{
+                        font-size: 20px;
+                        .fotos-inicio{
+                            width: 185px;
+                            height: 130px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@media (max-width:1164px){
+    footer{
+        ul{
+            h2{
+                font-size: 20px;
+            }
+            .logo-1{
+                img{
+                    width: 80px;
+                    height: 70px;
+                    flex-wrap: wrap;
+                    margin: .125rem;
+                }
+            }
+            .logo-6{
+                img{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: -10px;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@media(max-width:530px){
+    footer{
+        ul{
+            h2{
+                font-size: 22px;
+            }
+            .logo-1{
+                img{
+                    width: 8.125rem;
+                    height: 6.875rem;
+                }
+            }
+            .logo-2{
+                padding-left: 1.25rem;
+            }
+            .logo-3{
+                padding-right: 1.25rem;
+            }
+            .logo-4{
+                padding-left: 1.25rem;
+            }
+            .logo-5{
+                padding-right: 1.25rem;
+            }
+            .logo-6{
+                img{
+                width: 60px;
+                height: 60px;
+                }
+            }
+        }
+    }
+    main{
+        .inicio{
+            .titulo-inicio{
+                font-size: 5rem;
+            }
+            .cuadros-inicio{
+                padding: 3.125rem;
+                padding-bottom: 9.375rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@media(max-width:2320px){
+    main{
+        .inicio{
+            .titulo-inicio{
+                font-size: 7.5rem;
+            }
+            .cuadros-inicio{
+                div{
+                    width: 25rem;
+                    height: 18.75rem;
+                    a{
+                        .fotos-inicio{
+                            width: 15.625rem;
+                            height: 12.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

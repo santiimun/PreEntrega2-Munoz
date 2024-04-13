@@ -1,0 +1,68 @@
+@media(max-width:2732px){
+    header{
+        height: 12.5rem;
+        div{
+            .menu{
+                a{
+                    .logo-messi-menu{
+                        width: 12.5rem;
+                        height: 9.375rem;
+                        margin-left: 1.875rem;
+                    }
+                }
+                .navBar{
+                    ul{
+                        li{
+                            a{
+                                font-size: 1.875rem;
+                                padding: 1.5625rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+footer{
+    padding-top: 10px ;
+    ul{
+        h2{
+            font-size: 1.5625rem;
+        }
+        .logo-1{
+            img{
+                width: 15.625rem;
+                height: 12.5rem;
+                margin: 1.25rem;
+            }
+        }
+        .logo-6{
+            img{
+                width: 6.25rem;
+                height: 6.25rem;
+            }
+        }
+    }
+}
+main{
+    .inicio{
+        .titulo-inicio{
+            font-size: 9.375rem;
+        }
+        .cuadros-inicio{
+            div{
+                width: 28.125rem;
+                height: 21.875rem;
+                a{
+                    font-size: 3.125rem;
+                    .fotos-inicio{
+                        width: 18.75rem;
+                        height: 15.625rem;
+                    }
+                }
+            }
+        }
+    }
+}
+}

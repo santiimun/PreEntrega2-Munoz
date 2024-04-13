@@ -1,0 +1,54 @@
+@media(max-width:24.1875rem){
+    footer{
+        ul{
+            h2{
+                font-size: 20px;
+            }
+            .logo-1{
+                img{
+                    width: 80px;
+                    height: 65px;
+                }
+            }
+            .logo-2{
+                padding-left: 0px;
+            }
+            .logo-3{
+                padding-right: 0px;
+            }
+            .logo-4{
+                padding-left: 0px;
+            }
+            .logo-5{
+                padding-right: 0px;
+            }
+            .logo-6{
+                img{
+                width: 45px;
+                height: 45px;
+                }
+            }
+        }
+    }
+    main{
+        .inicio{
+            .titulo-inicio{
+                font-size: 60px;
+            }
+            .cuadros-inicio{
+                div{
+                    width: 210px;
+                    height: 170px;
+                    margin: 20px;
+                    a{
+                        font-size: 18px;
+                        .fotos-inicio{
+                            width: 165px;
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

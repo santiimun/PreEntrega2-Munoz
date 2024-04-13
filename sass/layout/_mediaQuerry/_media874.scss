@@ -18,11 +18,16 @@
                 background-color: #272626;
                 margin-top: -10px;
                 display: none;
-                height: 380px;
+                height: 420px;
                 ul{
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    li{
+                        a{
+                            font-size: 30px;
+                        }
+                    }
                 }
             }
         }

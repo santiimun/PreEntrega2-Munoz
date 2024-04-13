@@ -1,0 +1,57 @@
+@media(max-width:1024px){
+    footer{
+        ul{
+            h2{
+                font-size: 22px;
+            }
+            .logo-1{
+                img{
+                    width: 80px;
+                    height: 70px;
+                    margin: .125rem;
+                }
+            }
+            .logo-6{
+                img{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin: -10px;
+                }
+            }
+        }
+    }
+    header{
+        div{
+            .menu{
+                .navBar{
+                    ul{
+                        li{
+                            a{
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .inicio{
+            .titulo-inicio{
+                font-size: 100px;
+                text-align: center;
+                margin-left: 50px;
+            }
+            .cuadros-inicio{
+                div{
+                    width: 15.625rem;
+                    height: 11.875rem;
+                    a{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+}
