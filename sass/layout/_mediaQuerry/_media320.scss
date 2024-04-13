@@ -12,5 +12,18 @@
             }
         }
     }
-    
+    .content{
+        .menu{
+            .navBar{
+                height: 360px;
+                ul{
+                    li{
+                        a{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
