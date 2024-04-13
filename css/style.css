@@ -628,22 +628,24 @@ section .grid {
         height: 130px; } }
 
 @media (max-width: 24.1875rem) {
-  footer ul h2 {
-    font-size: 20px; }
-  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 80px;
-    height: 65px; }
-  footer ul .logo-2 {
-    padding-left: 0px; }
-  footer ul .logo-3 {
-    padding-right: 0px; }
-  footer ul .logo-4 {
-    padding-left: 0px; }
-  footer ul .logo-5 {
-    padding-right: 0px; }
-  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 45px;
-    height: 45px; }
+  footer ul {
+    margin: -5px; }
+    footer ul h2 {
+      font-size: 17px; }
+    footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+      width: 50px;
+      height: 30px; }
+    footer ul .logo-2 {
+      padding: -5px; }
+    footer ul .logo-3 {
+      padding: -5px; }
+    footer ul .logo-4 {
+      padding: -5px; }
+    footer ul .logo-5 {
+      padding: -5px; }
+    footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+      width: 20px;
+      height: 20px; }
   main .inicio .titulo-inicio {
     font-size: 60px; }
   main .inicio .cuadros-inicio div {

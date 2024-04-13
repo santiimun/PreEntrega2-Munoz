@@ -1,31 +1,32 @@
 @media(max-width:24.1875rem){
     footer{
         ul{
+            margin: -5px;
             h2{
-                font-size: 20px;
+                font-size: 17px;
             }
             .logo-1{
                 img{
-                    width: 80px;
-                    height: 65px;
+                    width: 50px;
+                    height: 30px;
                 }
             }
             .logo-2{
-                padding-left: 0px;
+                padding: -5px;
             }
             .logo-3{
-                padding-right: 0px;
+                padding: -5px;
             }
             .logo-4{
-                padding-left: 0px;
+                padding: -5px;
             }
             .logo-5{
-                padding-right: 0px;
+                padding: -5px;
             }
             .logo-6{
                 img{
-                width: 45px;
-                height: 45px;
+                width: 20px;
+                height: 20px;
                 }
             }
         }
