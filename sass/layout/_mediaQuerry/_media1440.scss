@@ -44,6 +44,10 @@
         }
     }
     section{
+        .titulo-gal{
+            @include h1;
+            font-size: 80px;
+        }
         .grid{
             grid-template-rows: repeat(20,1fr);
             .img1{
