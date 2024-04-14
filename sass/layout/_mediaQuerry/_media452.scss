@@ -30,14 +30,27 @@
             }
         }
     }
+    header{
+        height: 120px;
+        div{
+            .menu{
+                a{ 
+                    .logo-messi-menu{
+                        width: 65px;
+                        height: 50px;
+                    }
+                }    
+            }
+        }
+    }
     .content{
         .menu{
             .navBar{
-                height: 400px;
+                height: 360px;
                 ul{
                     li{
                         a{
-                            font-size: 25px;
+                            font-size: 20px;
                         }
                     }
                 }

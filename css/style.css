@@ -713,10 +713,15 @@ section .grid {
   footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
     width: 30px;
     height: 30px; }
+  header {
+    height: 120px; }
+    header div .menu a .logo-messi-menu {
+      width: 65px;
+      height: 50px; }
   .content .menu .navBar {
-    height: 400px; }
+    height: 360px; }
     .content .menu .navBar ul li a {
-      font-size: 25px; }
+      font-size: 20px; }
   main .inicio .cuadros-inicio div {
     height: 180px; }
     main .inicio .cuadros-inicio div a {
@@ -797,14 +802,3 @@ section .grid {
     text-align: center;
     margin: 3.125rem;
     font-size: 40px; } }
-
-@media (max-width: 320px) {
-  header {
-    height: 120px; }
-    header div .menu a .logo-messi-menu {
-      width: 65px;
-      height: 50px; }
-  .content .menu .navBar {
-    height: 360px; }
-    .content .menu .navBar ul li a {
-      font-size: 20px; } }
