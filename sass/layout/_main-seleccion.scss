@@ -8,18 +8,18 @@
             h1{
                 @include h1;
                 text-align: center;
-                padding-right: 2.8125rem;
-                padding-top: 3.125rem;
+                justify-content: center;
+                margin-right: 120px
+                
             }
             p{
                 @include p;
                 text-align: center;
                 text-indent: .9375rem;
                 width: 80%;
-                height: 28.75rem;
-                margin: 3.125rem;
-                align-items: center;
-                padding: 2.1875rem;
+                height: 80%;
+                text-align: center;
+                justify-content: center;
             }
         } 
     }
