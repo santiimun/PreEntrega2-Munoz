@@ -58,4 +58,28 @@
             font-size: 40px;
         }
     }
+    .seleccion{
+        section{
+            div{
+                h1{
+                    font-size: 40px;
+                    margin-left: 35px;
+                }
+                p{
+                    font-size: 12px;
+                    margin-left: 40px;
+                    padding: 20px;
+                    margin-top: -15px;
+                }
+            }
+        }
+        .slide{
+            margin: 20px;
+            margin-top: 40px;
+            img{
+                height: 35vh;
+                margin-top: 80px;
+            }
+        }
+    }
 }

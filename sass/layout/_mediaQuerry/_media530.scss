@@ -73,4 +73,27 @@
             }
         }
     }
+    .seleccion{
+        section{
+            div{
+                h1{
+                    font-size: 50px;
+                    margin: 15px;
+                }
+                p{
+                    font-size: 13px;
+                    margin-left: 45px;
+                    padding: 30px;
+                    margin-top: -15px;
+                }
+            }
+        }
+        .slide{
+            div{
+                img{
+                    height: 40vh;
+                }
+            }
+        }
+    }
 }
