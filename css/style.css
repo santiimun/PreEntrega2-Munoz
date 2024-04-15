@@ -78,6 +78,155 @@ footer {
         height: 4.375rem;
         flex-wrap: wrap; }
 
+@media (max-width: 2732px) {
+  header {
+    height: 12.5rem; }
+    header div .menu a .logo-messi-menu {
+      width: 12.5rem;
+      height: 9.375rem;
+      margin-left: 1.875rem; }
+    header div .menu .navBar ul li a {
+      font-size: 1.875rem;
+      padding: 1.5625rem; }
+  footer {
+    padding-top: 10px; }
+    footer ul h2 {
+      font-size: 1.5625rem; }
+    footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+      width: 15.625rem;
+      height: 12.5rem;
+      margin: 1.25rem; }
+    footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+      width: 6.25rem;
+      height: 6.25rem; }
+  main .inicio .titulo-inicio {
+    font-size: 9.375rem; }
+  main .inicio .cuadros-inicio div {
+    width: 28.125rem;
+    height: 21.875rem; }
+    main .inicio .cuadros-inicio div a {
+      font-size: 3.125rem; }
+      main .inicio .cuadros-inicio div a .fotos-inicio {
+        width: 18.75rem;
+        height: 15.625rem; }
+  section .titulo-gal {
+    font-size: 100px; }
+  .seleccion section div h1 {
+    font-size: 100px; }
+  .seleccion section div p {
+    font-size: 35px;
+    margin-left: 100px; } }
+
+@media (max-width: 157.8125rem) {
+  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 12.8125rem;
+    height: 9.375rem; }
+  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 5.9375rem;
+    height: 5.9375rem; }
+  .seleccion section div p {
+    font-size: 32px;
+    margin: 100px; } }
+
+@media (max-width: 2320px) {
+  main .inicio .titulo-inicio {
+    font-size: 7.5rem; }
+  main .inicio .cuadros-inicio div {
+    width: 25rem;
+    height: 18.75rem; }
+    main .inicio .cuadros-inicio div a .fotos-inicio {
+      width: 15.625rem;
+      height: 12.5rem; } }
+
+@media (max-width: 2284px) {
+  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 10.625rem;
+    height: 7.5rem; }
+  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 5.625rem;
+    height: 5.625rem; }
+  .seleccion section div p {
+    font-size: 30px; } }
+
+@media (max-width: 2120px) {
+  main .inicio .titulo-inicio {
+    font-size: 7.5rem; }
+  main .inicio .cuadros-inicio div {
+    width: 21.875rem;
+    height: 15.625rem; }
+    main .inicio .cuadros-inicio div a .fotos-inicio {
+      width: 12.5rem;
+      height: 9.375rem; }
+  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 10.625rem;
+    height: 7.5rem;
+    margin: .3125rem; }
+  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 5.625rem;
+    height: 5.625rem;
+    margin: .625rem; } }
+
+@media (max-width: 1920px) {
+  main .inicio .titulo-inicio {
+    font-size: 7.5rem; }
+  main .inicio .cuadros-inicio div {
+    width: 18.75rem;
+    height: 13.125rem; }
+    main .inicio .cuadros-inicio div a {
+      font-size: 2.5rem; }
+      main .inicio .cuadros-inicio div a .fotos-inicio {
+        width: 12.5rem;
+        height: 9.375rem; }
+  footer ul h2 {
+    font-size: 23px; }
+  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 12.5rem;
+    height: 9.375rem;
+    margin: -2px; }
+  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 4.375rem;
+    height: 4.375rem; }
+  .seleccion section div h1 {
+    padding-top: 30px;
+    padding-left: 60px; }
+  .seleccion section div p {
+    font-size: 28px; } }
+
+@media (max-width: 1822px) {
+  footer ul h2 {
+    font-size: 20px; }
+  footer ul .logo-1, footer ul .logo-2, footer ul .logo-3, footer ul .logo-4, footer ul .logo-5, footer ul .logo-6, footer ul .logo-7, footer ul .logo-8 {
+    margin: 20px; }
+  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 4.375rem;
+    height: 4.375rem; } }
+
+@media (max-width: 1660px) {
+  footer ul h2 {
+    font-size: 20px; }
+  footer ul .logo-1, footer ul .logo-2, footer ul .logo-3, footer ul .logo-4, footer ul .logo-5, footer ul .logo-6, footer ul .logo-7, footer ul .logo-8 {
+    margin: 20px; }
+    footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+      width: 9.375rem;
+      height: 120px; }
+  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
+    width: 4.375rem;
+    height: 4.375rem; }
+  header {
+    height: 170px; }
+    header div .menu a .logo-messi-menu {
+      width: 9.375rem;
+      height: 6.25rem;
+      margin: 1.25rem; }
+    header div .navBar ul li a {
+      font-size: 1.25rem;
+      padding: 1.25rem; }
+  .seleccion section div h1 {
+    padding-top: 10px; }
+  .seleccion section div p {
+    font-size: 26px;
+    padding-top: 10px; } }
+
 main .inicio .titulo-inicio {
   text-align: left;
   margin: 3.125rem;
@@ -270,155 +419,6 @@ section .grid {
   section .grid .img6 {
     grid-column: 7/9;
     grid-row: 6/9; }
-
-@media (max-width: 2732px) {
-  header {
-    height: 12.5rem; }
-    header div .menu a .logo-messi-menu {
-      width: 12.5rem;
-      height: 9.375rem;
-      margin-left: 1.875rem; }
-    header div .menu .navBar ul li a {
-      font-size: 1.875rem;
-      padding: 1.5625rem; }
-  footer {
-    padding-top: 10px; }
-    footer ul h2 {
-      font-size: 1.5625rem; }
-    footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-      width: 15.625rem;
-      height: 12.5rem;
-      margin: 1.25rem; }
-    footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-      width: 6.25rem;
-      height: 6.25rem; }
-  main .inicio .titulo-inicio {
-    font-size: 9.375rem; }
-  main .inicio .cuadros-inicio div {
-    width: 28.125rem;
-    height: 21.875rem; }
-    main .inicio .cuadros-inicio div a {
-      font-size: 3.125rem; }
-      main .inicio .cuadros-inicio div a .fotos-inicio {
-        width: 18.75rem;
-        height: 15.625rem; }
-  section .titulo-gal {
-    font-size: 100px; }
-  .seleccion section div h1 {
-    font-size: 100px; }
-  .seleccion section div p {
-    font-size: 35px;
-    margin-left: 100px; } }
-
-@media (max-width: 157.8125rem) {
-  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 12.8125rem;
-    height: 9.375rem; }
-  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 5.9375rem;
-    height: 5.9375rem; }
-  .seleccion section div p {
-    font-size: 32px;
-    margin: 100px; } }
-
-@media (max-width: 2320px) {
-  main .inicio .titulo-inicio {
-    font-size: 7.5rem; }
-  main .inicio .cuadros-inicio div {
-    width: 25rem;
-    height: 18.75rem; }
-    main .inicio .cuadros-inicio div a .fotos-inicio {
-      width: 15.625rem;
-      height: 12.5rem; } }
-
-@media (max-width: 2284px) {
-  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 10.625rem;
-    height: 7.5rem; }
-  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 5.625rem;
-    height: 5.625rem; }
-  .seleccion section div p {
-    font-size: 30px; } }
-
-@media (max-width: 2120px) {
-  main .inicio .titulo-inicio {
-    font-size: 7.5rem; }
-  main .inicio .cuadros-inicio div {
-    width: 21.875rem;
-    height: 15.625rem; }
-    main .inicio .cuadros-inicio div a .fotos-inicio {
-      width: 12.5rem;
-      height: 9.375rem; }
-  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 10.625rem;
-    height: 7.5rem;
-    margin: .3125rem; }
-  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 5.625rem;
-    height: 5.625rem;
-    margin: .625rem; } }
-
-@media (max-width: 1920px) {
-  main .inicio .titulo-inicio {
-    font-size: 7.5rem; }
-  main .inicio .cuadros-inicio div {
-    width: 18.75rem;
-    height: 13.125rem; }
-    main .inicio .cuadros-inicio div a {
-      font-size: 2.5rem; }
-      main .inicio .cuadros-inicio div a .fotos-inicio {
-        width: 12.5rem;
-        height: 9.375rem; }
-  footer ul h2 {
-    font-size: 23px; }
-  footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 12.5rem;
-    height: 9.375rem;
-    margin: -2px; }
-  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 4.375rem;
-    height: 4.375rem; }
-  .seleccion section div h1 {
-    padding-top: 30px;
-    padding-left: 60px; }
-  .seleccion section div p {
-    font-size: 28px; } }
-
-@media (max-width: 1822px) {
-  footer ul h2 {
-    font-size: 20px; }
-  footer ul .logo-1, footer ul .logo-2, footer ul .logo-3, footer ul .logo-4, footer ul .logo-5, footer ul .logo-6, footer ul .logo-7, footer ul .logo-8 {
-    margin: 20px; }
-  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 4.375rem;
-    height: 4.375rem; } }
-
-@media (max-width: 1660px) {
-  footer ul h2 {
-    font-size: 20px; }
-  footer ul .logo-1, footer ul .logo-2, footer ul .logo-3, footer ul .logo-4, footer ul .logo-5, footer ul .logo-6, footer ul .logo-7, footer ul .logo-8 {
-    margin: 20px; }
-    footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-      width: 9.375rem;
-      height: 120px; }
-  footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
-    width: 4.375rem;
-    height: 4.375rem; }
-  header {
-    height: 170px; }
-    header div .menu a .logo-messi-menu {
-      width: 9.375rem;
-      height: 6.25rem;
-      margin: 1.25rem; }
-    header div .navBar ul li a {
-      font-size: 1.25rem;
-      padding: 1.25rem; }
-  .seleccion section div h1 {
-    padding-top: 10px; }
-  .seleccion section div p {
-    font-size: 26px;
-    padding-top: 10px; } }
 
 @media (max-width: 1440px) {
   header {
@@ -838,10 +838,11 @@ section .grid {
     font-size: 50px;
     margin: 15px; }
   .seleccion section div p {
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 45px;
-    padding: 20px;
-    margin-top: -15px; }
+    padding: 10px;
+    margin-top: -15px;
+    text-align: justify; }
   .seleccion .slide {
     margin: 20px;
     margin-top: 60px; }
@@ -893,7 +894,7 @@ section .grid {
     font-size: 40px;
     margin-left: 35px; }
   .seleccion section div p {
-    font-size: 12px;
+    font-size: 11px;
     margin-left: 40px;
     padding: 20px;
     margin-top: -15px; }
