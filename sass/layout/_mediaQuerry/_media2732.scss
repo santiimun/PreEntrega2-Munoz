@@ -68,14 +68,14 @@ main{
 section{
     .titulo-gal{
         
-        font-size: 100px;
+        font-size: map-get($font-size,grande);
     }
 }
 .seleccion{
     section{
         div{
             h1{
-                font-size: 100px;
+                font-size: map-get($font-size,grande);
                 
             }
             p{

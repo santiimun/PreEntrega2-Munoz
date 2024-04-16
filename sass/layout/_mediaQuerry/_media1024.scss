@@ -38,7 +38,7 @@
     main{
         .inicio{
             .titulo-inicio{
-                font-size: 100px;
+                font-size: map-get($font-size, grande);
                 text-align: center;
                 margin-left: 50px;
             }
@@ -57,7 +57,7 @@
         section{
             div{
                 h1{
-                    font-size: 5rem;
+                    font-size: map-get($font-size, medio);
                     padding-left: 60px;
                 }
                 p{

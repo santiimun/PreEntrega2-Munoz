@@ -46,7 +46,7 @@ header{
                             display: block;
                             font-weight: bold;
                             &:hover{
-                                color: white;
+                                color: map-get($color-header, colorPrincipal);
                             }
                         }
                     }

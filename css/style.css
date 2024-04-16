@@ -259,9 +259,9 @@ section .grid {
         width: 18.75rem;
         height: 15.625rem; }
   section .titulo-gal {
-    font-size: 100px; }
+    font-size: 6.25rem; }
   .seleccion section div h1 {
-    font-size: 100px; }
+    font-size: 6.25rem; }
   .seleccion section div p {
     font-size: 35px;
     margin-left: 100px; } }
@@ -448,7 +448,7 @@ section .grid {
     font-style: normal;
     text-align: center;
     margin: 3.125rem;
-    font-size: 80px; }
+    font-size: 5rem; }
   section .grid {
     grid-template-rows: repeat(20, 1fr); }
     section .grid .img1, section .grid .img2, section .grid .img3, section .grid .img4, section .grid .img5, section .grid .img6 {
@@ -533,7 +533,7 @@ section .grid {
   header div .menu .navBar ul li a {
     font-size: 22px; }
   main .inicio .titulo-inicio {
-    font-size: 100px;
+    font-size: 6.25rem;
     text-align: center;
     margin-left: 50px; }
   main .inicio .cuadros-inicio div {
@@ -890,9 +890,9 @@ section .grid {
     font-style: normal;
     text-align: center;
     margin: 3.125rem;
-    font-size: 40px; }
+    font-size: 2.5rem; }
   .seleccion section div h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     margin: 5px;
     margin-left: 10px; }
   .seleccion section div p {

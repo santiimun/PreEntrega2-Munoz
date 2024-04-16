@@ -55,14 +55,14 @@
     section{
         .titulo-gal{
             @include h1;
-            font-size: 40px;
+            font-size: map-get($font-size, chico);
         }
     }
     .seleccion{
         section{
             div{
                 h1{
-                    font-size: 40px;
+                    font-size: map-get($font-size, chico);
                     margin: 5px;
                     margin-left: 10px;
                 }
