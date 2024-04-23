@@ -79,4 +79,34 @@
             }
         }
     }
+    .biografia{
+        section{
+            div{
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .carrera-datos{
+        div{
+            article{
+                div{
+                    @include datos;
+                    width: 80%;
+                    margin-left: 65px;
+                    p{
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                    }
+                    img{
+                        margin: 0px;
+                        margin-bottom: 40px;
+                        width: 18.75rem;
+                        height: 17.5rem;
+                    }
+                }
+            }
+        }
+    }
 }

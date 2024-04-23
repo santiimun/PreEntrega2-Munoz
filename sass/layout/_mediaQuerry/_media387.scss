@@ -83,4 +83,39 @@
             }
         }
     }
+    .biografia{
+        section{
+            div{
+                h1{
+                    font-size: map-get($font-size, chico );
+                }
+                p{
+                    font-size: 13px;
+                    margin: 35px;
+                }
+            }
+        }
+        .slide{
+            div{
+                img{
+                    height: 35vh;
+                }
+            }
+        }
+    }
+    .carrera-datos{
+        div{
+            article{
+                div{
+                    margin-left: 40px;
+                    height: 450px;
+                    margin-bottom: 20px;
+                    p{
+                        font-size: 15px;
+                    }
+                    
+                }
+            }
+        }
+    }
 }

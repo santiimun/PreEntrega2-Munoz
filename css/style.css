@@ -235,7 +235,7 @@ section .grid {
       height: 9.375rem;
       margin-left: 1.875rem; }
     header div .menu .navBar ul li a {
-      font-size: 1.875rem;
+      font-size: 1.5625rem;
       padding: 1.5625rem; }
   footer {
     padding-top: 10px; }
@@ -264,7 +264,9 @@ section .grid {
     font-size: 6.25rem; }
   .seleccion section div p {
     font-size: 35px;
-    margin-left: 100px; } }
+    margin-left: 100px; }
+  .carrera-datos h1 {
+    font-size: 6.25rem; } }
 
 @media (max-width: 157.8125rem) {
   footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
@@ -327,7 +329,7 @@ section .grid {
         width: 12.5rem;
         height: 9.375rem; }
   footer ul h2 {
-    font-size: 23px; }
+    font-size: 20px; }
   footer ul .logo-1 img, footer ul .logo-2 img, footer ul .logo-3 img, footer ul .logo-4 img, footer ul .logo-5 img, footer ul .logo-6 img, footer ul .logo-7 img, footer ul .logo-8 img {
     width: 12.5rem;
     height: 9.375rem;
@@ -484,12 +486,29 @@ section .grid {
         font-size: 22px;
         margin-left: 130px;
         padding: 50px;
-        padding-top: 5px; }
+        padding-top: 5px;
+        text-align: justify; }
     .seleccion div {
       grid-column: 1/3;
       grid-row: 2/3; }
       .seleccion div .slide {
-        margin: 50px; } }
+        margin: 50px; }
+  .biografia {
+    grid-template-rows: 800px,1fr;
+    grid-template-columns: repeat(2, 1fr); }
+    .biografia section {
+      grid-column: 1/3;
+      grid-row: 1/2; }
+      .biografia section div h1 {
+        padding-right: 0px; }
+      .biografia section div p {
+        font-size: 1.625rem;
+        margin: 50px 150px;
+        text-align: justify; }
+    .biografia .slide {
+      grid-column: 1/3; }
+      .biografia .slide div img {
+        height: 70vh; } }
 
 @media (max-width: 1281px) {
   footer ul h2 {
@@ -503,7 +522,23 @@ section .grid {
     width: 3.125rem;
     height: 3.125rem;
     margin: 0px;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .biografia section div p {
+    margin: 125px; }
+  .carrera-datos h1 {
+    font-size: 5rem; }
+  .carrera-datos div article {
+    flex-direction: column; }
+    .carrera-datos div article div {
+      width: 88%;
+      height: 15.625rem;
+      flex-direction: row;
+      justify-content: space-around; }
+      .carrera-datos div article div p {
+        font-size: 25px;
+        margin: 0px; }
+      .carrera-datos div article div img {
+        margin: 1.25rem; } }
 
 @media (max-width: 1164px) {
   footer ul h2 {
@@ -548,7 +583,20 @@ section .grid {
     font-size: 20px;
     margin-left: 90px;
     padding: 30px;
-    padding-top: 0px; } }
+    padding-top: 0px; }
+  .biografia section div p {
+    margin: 100px;
+    font-size: 23px; }
+  .carrera-datos div article div {
+    margin-left: 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+    .carrera-datos div article div p {
+      font-size: 20px; }
+    .carrera-datos div article div img {
+      grid-row: 1/3;
+      margin-left: 50px; } }
 
 @media (max-width: 977px) {
   footer ul {
@@ -643,7 +691,12 @@ section .grid {
       grid-column: 1/9; }
     section .grid .img6 {
       grid-column: 1/9;
-      grid-row: 48/60; } }
+      grid-row: 48/60; }
+  .biografia section div p {
+    margin: 90px;
+    font-size: 22px; }
+  .biografia .slide div img {
+    height: 60vh; } }
 
 @media (max-width: 768px) {
   footer ul h2 {
@@ -670,7 +723,29 @@ section .grid {
     padding: 30px;
     margin-top: -15px; }
   .seleccion .slide div img {
-    height: 50vh; } }
+    height: 50vh; }
+  .biografia section div h1 {
+    font-size: 4.375rem; }
+  .biografia section div p {
+    margin: 5rem;
+    font-size: 21px; }
+  .carrera-datos div article div {
+    margin-left: 45px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 21.875rem; }
+    .carrera-datos div article div p {
+      font-size: 22px; }
+    .carrera-datos div article div img {
+      grid-row: 1/6;
+      margin-left: 50px;
+      width: 250px;
+      height: 250px; } }
+
+@media (max-width: 669px) {
+  .biografia section div p {
+    font-size: 20px;
+    margin: 70px; } }
 
 @media (max-width: 620px) {
   footer ul h2 {
@@ -716,7 +791,28 @@ section .grid {
     font-size: 16px;
     margin-left: 60px;
     padding: 30px;
-    margin-top: -15px; } }
+    margin-top: -15px; }
+  .biografia section div p {
+    font-size: 18px; }
+  .carrera-datos div article div {
+    background-color: #54535398;
+    text-align: center;
+    width: 25rem;
+    height: 43.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 65px; }
+    .carrera-datos div article div p {
+      font-size: 25px;
+      margin-bottom: 15px; }
+    .carrera-datos div article div img {
+      margin: 0px;
+      margin-bottom: 40px;
+      width: 18.75rem;
+      height: 17.5rem; } }
 
 @media (max-width: 530px) {
   footer ul h2 {
@@ -768,7 +864,16 @@ section .grid {
     padding: 30px;
     margin-top: -15px; }
   .seleccion .slide div img {
-    height: 40vh; } }
+    height: 40vh; }
+  .biografia section div p {
+    font-size: 16px;
+    margin: 55px; }
+  .biografia .slide {
+    margin: 20px; }
+    .biografia .slide div img {
+      height: 40vh; }
+  .carrera-datos div article div {
+    margin-left: 50px; } }
 
 @media (max-width: 452px) {
   footer ul h2 {
@@ -849,7 +954,19 @@ section .grid {
     margin-top: 60px; }
     .seleccion .slide img {
       height: 35vh;
-      margin-top: 60px; } }
+      margin-top: 60px; }
+  .biografia section div h1 {
+    font-size: 50px; }
+  .biografia section div p {
+    font-size: 15px;
+    margin: 40px; }
+  .carrera-datos h1 {
+    font-size: 3.125rem; }
+  .carrera-datos div article div p {
+    font-size: 20px; }
+  .carrera-datos div article div img {
+    width: 9.375rem;
+    height: 9.375rem; } }
 
 @media (max-width: 387px) {
   footer ul {
@@ -905,4 +1022,17 @@ section .grid {
     margin-top: 40px; }
     .seleccion .slide img {
       height: 35vh;
-      margin-top: 80px; } }
+      margin-top: 80px; }
+  .biografia section div h1 {
+    font-size: 2.5rem; }
+  .biografia section div p {
+    font-size: 13px;
+    margin: 35px; }
+  .biografia .slide div img {
+    height: 35vh; }
+  .carrera-datos div article div {
+    margin-left: 40px;
+    height: 450px;
+    margin-bottom: 20px; }
+    .carrera-datos div article div p {
+      font-size: 15px; } }

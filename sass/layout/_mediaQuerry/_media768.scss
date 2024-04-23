@@ -52,4 +52,40 @@
             }
         }
     }
+    .biografia{
+        section{
+            div{
+                h1{
+                    font-size: 4.375rem;
+                }
+                p{
+                    margin: map-get($font-size,medio);
+                    
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+    .carrera-datos{
+        div{
+            article{
+                div{
+                    margin-left: 45px;
+                    grid-template-columns: repeat(2,1fr);
+                    grid-template-rows: repeat(4,1fr);
+                    height: 21.875rem;
+                    p{
+                        font-size: 22px;
+                        
+                    }
+                    img{
+                        grid-row: 1/6;
+                        margin-left: 50px;
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
 }

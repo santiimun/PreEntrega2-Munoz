@@ -22,4 +22,36 @@
             }
         }
     }
+    .biografia{
+        section{
+            div{
+                p{
+                    margin: 125px;
+                }
+            }
+        }
+    }
+    .carrera-datos{
+        h1{
+            font-size: 5rem;
+        }
+        div{
+            article{
+                flex-direction: column;
+                div{
+                    width: 88%;
+                    height: 15.625rem;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    p{
+                        font-size: 25px;
+                        margin: 0px;
+                    }
+                    img{
+                        margin: 1.25rem;
+                    }
+                }
+            }
+        }
+    }
 }
