@@ -1052,6 +1052,19 @@ section .grid {
       main .inicio .cuadros-inicio div a .fotos-inicio {
         width: 185px;
         height: 130px; }
+  main div .novedades {
+    margin: 5px; }
+  main div .partidos-destacados .slide {
+    margin: 5px; }
+    main div .partidos-destacados .slide div div img {
+      height: 40vh; }
+    main div .partidos-destacados .slide div div div h3 {
+      font-size: 14px; }
+    main div .partidos-destacados .slide div div div a img {
+      width: 1.25rem;
+      height: 1.25rem; }
+  main div .partidos-destacados h4 {
+    padding: 45px 20px; }
   section .titulo-gal {
     color: #F6F6F6;
     font-family: "Roboto Slab", serif;
@@ -1142,6 +1155,27 @@ section .grid {
       main .inicio .cuadros-inicio div a .fotos-inicio {
         width: 165px;
         height: 120px; }
+  main div .novedades .titulos {
+    font-size: 50px; }
+  main div .novedades .card-1 img {
+    height: 250px; }
+  main div .novedades .card-2 img {
+    height: 250px; }
+  main div .novedades .card-3 img {
+    height: 250px; }
+  main div .novedades .card-4 img {
+    height: 250px; }
+  main div .partidos-destacados h2 {
+    font-size: 40px; }
+  main div .partidos-destacados .slide {
+    margin: 2px; }
+    main div .partidos-destacados .slide div div img {
+      height: 30vh; }
+    main div .partidos-destacados .slide div div div h3 {
+      font-size: 11px; }
+    main div .partidos-destacados .slide div div div a img {
+      width: 1.25rem;
+      height: 1.25rem; }
   section .titulo-gal {
     color: #F6F6F6;
     font-family: "Roboto Slab", serif;
