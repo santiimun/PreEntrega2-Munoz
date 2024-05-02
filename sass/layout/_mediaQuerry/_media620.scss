@@ -109,4 +109,28 @@
             }
         }
     }
+    main{
+        div{
+            .partidos-destacados{
+                h2{
+                    font-size: 50px;
+                    padding: 20px 40px;
+                }
+                .slide{
+                    margin: 20px;
+                    div{
+                        div{
+                            img{
+                                height: 45vh;
+                            }
+                        }
+                    }
+                }
+                h4{
+                    font-size: 15px;
+                    padding: 30px 150px;
+                }
+            }
+        }
+    }
 }

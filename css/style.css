@@ -114,6 +114,65 @@ main .inicio .cuadros-inicio {
         width: 12.5rem;
         height: 9.375rem; }
 
+main div .novedades {
+  display: grid; }
+  main div .novedades .titulos {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.75rem;
+    color: #c4c1c1;
+    grid-column: 1/5;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 6.25rem;
+    padding-top: -10px; }
+  main div .novedades div {
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px; }
+    main div .novedades div img {
+      height: 250px;
+      padding: 7px;
+      border-radius: 20px; }
+
+main div .partidos-destacados {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 500px 1,1fr; }
+  main div .partidos-destacados h2 {
+    grid-column: 4/9;
+    padding: 50px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.75rem;
+    color: #c4c1c1;
+    text-align: center;
+    justify-content: center; }
+  main div .partidos-destacados .slide {
+    grid-column: 4/9;
+    margin: 40px;
+    border-radius: 0px; }
+    main div .partidos-destacados .slide div div img {
+      height: 70vh; }
+    main div .partidos-destacados .slide div div div {
+      background-color: #29242475; }
+      main div .partidos-destacados .slide div div div a img {
+        height: 30px; }
+  main div .partidos-destacados h4 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    text-align: center;
+    justify-content: center;
+    padding: 80px;
+    padding-top: 400px;
+    font-size: 25px;
+    color: #807979; }
+
 .biografia {
   display: grid;
   flex-direction: row;
@@ -376,7 +435,9 @@ section .grid {
     padding-top: 10px; }
   .seleccion section div p {
     font-size: 26px;
-    padding-top: 10px; } }
+    padding-top: 10px; }
+  main div .partidos-destacados h4 {
+    padding-top: 500px; } }
 
 .seleccion {
   display: grid;
@@ -451,28 +512,6 @@ section .grid {
     text-align: center;
     margin: 3.125rem;
     font-size: 5rem; }
-  section .grid {
-    grid-template-rows: repeat(20, 1fr); }
-    section .grid .img1, section .grid .img2, section .grid .img3, section .grid .img4, section .grid .img5, section .grid .img6 {
-      grid-column: 1/5;
-      grid-row: 2/8; }
-    section .grid .img2 {
-      width: 100%;
-      height: 100%;
-      grid-column: 5/9;
-      grid-row: 2/8; }
-    section .grid .img3 {
-      grid-row: 8/15;
-      grid-column: 1/5; }
-    section .grid .img4 {
-      grid-column: 1/5;
-      grid-row: 15/21; }
-    section .grid .img5 {
-      grid-row: 14/21;
-      grid-column: 5/9; }
-    section .grid .img6 {
-      grid-column: 5/9;
-      grid-row: 8/14; }
   .seleccion {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr); }
@@ -508,7 +547,46 @@ section .grid {
     .biografia .slide {
       grid-column: 1/3; }
       .biografia .slide div img {
-        height: 70vh; } }
+        height: 70vh; }
+  main div .novedades {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px repeat(2, 1fr); }
+    main div .novedades .card-1 {
+      grid-column: 1/2;
+      grid-row: 2/3; }
+      main div .novedades .card-1 img {
+        height: 300px; }
+    main div .novedades .card-2 {
+      grid-column: 2/3;
+      grid-row: 2/3; }
+      main div .novedades .card-2 img {
+        height: 300px; }
+    main div .novedades .card-3 {
+      grid-column: 1/2;
+      grid-row: 3/4; }
+      main div .novedades .card-3 img {
+        height: 300px; }
+    main div .novedades .card-4 {
+      grid-column: 2/3;
+      grid-row: 3/4; }
+      main div .novedades .card-4 img {
+        height: 300px; }
+  main div .partidos-destacados {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 150px 1fr 200px; }
+    main div .partidos-destacados h2 {
+      grid-column: 1/3;
+      grid-row: 1/2;
+      padding-bottom: 0px; }
+    main div .partidos-destacados .slide {
+      grid-column: 1/3;
+      grid-row: 2/3; }
+    main div .partidos-destacados h4 {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      padding-top: 0px;
+      font-size: 20px;
+      padding: 50px 200px; } }
 
 @media (max-width: 1281px) {
   footer ul h2 {
@@ -538,7 +616,28 @@ section .grid {
         font-size: 25px;
         margin: 0px; }
       .carrera-datos div article div img {
-        margin: 1.25rem; } }
+        margin: 1.25rem; }
+  section .grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(20, 1fr); }
+    section .grid .img1, section .grid .img2, section .grid .img3, section .grid .img4, section .grid .img5, section .grid .img6 {
+      grid-column: 1/3;
+      grid-row: 1/8; }
+    section .grid .img2 {
+      grid-column: 1/3;
+      grid-row: 8/14; }
+    section .grid .img3 {
+      grid-column: 4/5;
+      grid-row: 1/9; }
+    section .grid .img4 {
+      grid-column: 1/3;
+      grid-row: 14/21; }
+    section .grid .img5 {
+      grid-column: 3/4;
+      grid-row: 1/9; }
+    section .grid .img6 {
+      grid-column: 3/5;
+      grid-row: 9/21; } }
 
 @media (max-width: 1164px) {
   footer ul h2 {
@@ -576,6 +675,9 @@ section .grid {
     height: 11.875rem; }
     main .inicio .cuadros-inicio div a {
       font-size: 25px; }
+  main div .partidos-destacados h4 {
+    font-size: 18px;
+    padding: 40px 200px; }
   .seleccion section div h1 {
     font-size: 5rem;
     padding-left: 60px; }
@@ -667,7 +769,8 @@ section .grid {
         .content .menu .navBar ul {
           display: flex;
           flex-direction: column;
-          align-items: center; }
+          align-items: center;
+          padding-left: 0px; }
           .content .menu .navBar ul li a {
             font-size: 30px; }
   section .grid {
@@ -696,7 +799,10 @@ section .grid {
     margin: 90px;
     font-size: 22px; }
   .biografia .slide div img {
-    height: 60vh; } }
+    height: 60vh; }
+  main div .partidos-destacados h4 {
+    font-size: 17px;
+    padding: 40px 150px; } }
 
 @media (max-width: 768px) {
   footer ul h2 {
@@ -740,12 +846,28 @@ section .grid {
       grid-row: 1/6;
       margin-left: 50px;
       width: 250px;
-      height: 250px; } }
+      height: 250px; }
+  main div .partidos-destacados h2 {
+    font-size: 50px; }
+  main div .partidos-destacados .slide {
+    margin: 20px; }
+    main div .partidos-destacados .slide div div img {
+      height: 60vh; }
+    main div .partidos-destacados .slide div div div h3 {
+      font-size: 20px; } }
 
 @media (max-width: 669px) {
   .biografia section div p {
     font-size: 20px;
-    margin: 70px; } }
+    margin: 70px; }
+  main div .novedades {
+    display: flex;
+    flex-direction: column;
+    margin: 30px; }
+  main div .partidos-destacados .slide div div img {
+    height: 50vh; }
+  main div .partidos-destacados h4 {
+    font-size: 16px; } }
 
 @media (max-width: 620px) {
   footer ul h2 {
@@ -812,7 +934,17 @@ section .grid {
       margin: 0px;
       margin-bottom: 40px;
       width: 18.75rem;
-      height: 17.5rem; } }
+      height: 17.5rem; }
+  main div .partidos-destacados h2 {
+    font-size: 50px;
+    padding: 20px 40px; }
+  main div .partidos-destacados .slide {
+    margin: 20px; }
+    main div .partidos-destacados .slide div div img {
+      height: 45vh; }
+  main div .partidos-destacados h4 {
+    font-size: 15px;
+    padding: 30px 150px; } }
 
 @media (max-width: 530px) {
   footer ul h2 {
@@ -836,6 +968,18 @@ section .grid {
   main .inicio .cuadros-inicio {
     padding: 3.125rem;
     padding-bottom: 9.375rem; }
+  main div .novedades {
+    margin: 15px; }
+  main div .partidos-destacados .slide div div img {
+    height: 40vh; }
+  main div .partidos-destacados .slide div div div h3 {
+    font-size: 18px; }
+  main div .partidos-destacados .slide div div div a img {
+    width: 1.5625rem;
+    height: 1.5625rem; }
+  main div .partidos-destacados h4 {
+    font-size: 13px;
+    padding: 30px 120px; }
   section .grid .img1, section .grid .img2, section .grid .img3, section .grid .img4, section .grid .img5, section .grid .img6 {
     grid-column: 1/9;
     grid-row: 2/5; }

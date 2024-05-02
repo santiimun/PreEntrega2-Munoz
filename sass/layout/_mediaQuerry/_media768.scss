@@ -88,4 +88,29 @@
             }
         }
     }
+    main{
+        div{
+            .partidos-destacados{
+                h2{
+                    font-size: 50px;
+                }
+                .slide{
+                    margin: 20px;
+                    div{
+                        div{
+                            img{
+                                height: 60vh;
+                            }
+                            div{
+                                
+                                h3{
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

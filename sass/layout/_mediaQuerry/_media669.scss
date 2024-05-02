@@ -9,4 +9,27 @@
             }
         }
     }
+    main{
+        div{
+            .novedades{
+                display: flex;
+                flex-direction: column;
+                margin: 30px;
+            }
+            .partidos-destacados{
+                .slide{
+                    div{
+                        div{
+                            img{
+                                height: 50vh;
+                            }
+                        }
+                    }
+                }
+                h4{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
